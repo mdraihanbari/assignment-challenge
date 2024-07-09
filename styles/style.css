@@ -1,0 +1,209 @@
+@import url('https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&display=swap');
+/* font-family: "Azeret Mono", monospace; */
+/* nav items style start */
+body{
+    font-family: "Azeret Mono", monospace ;
+}
+/* nav items style */
+.nav-items{
+    display: flex;
+    justify-content: space-between;
+    margin: 30px 150px;
+    font-family: "Azeret Mono", monospace ; 
+     align-items: center;
+}
+.nav-title{
+    font-weight: 800;
+    font-size: 28px;
+    color:rgb(13, 19, 33);
+}
+
+/* btn container */
+.btn{
+width:220px;
+height: 58px;
+color:rgb(13, 19, 33);
+font-weight: 600;
+font-size: 20px;
+border:1px solid rgb(13, 19, 33);
+border-radius: 8px;
+opacity: 0.8;
+}
+.btn-secondary{
+    width: 208px;
+    height: 66px;
+    border: 1px solid #0D1321;
+    border-radius: 8px;
+    color:white;
+    background-color: #0D1321;
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 32px;
+}
+
+
+.hero-container{
+    width: 1440px;
+    height: 652px;
+    margin-top: 30px;
+    background-image: url("/assets/hero-bg.png");
+    background-repeat: no-repeat;
+    background-position: center;
+
+}
+.hero-content{
+    width: 998px;
+    height: 582px; 
+    margin:0 auto;
+    margin-top: 26px;
+    display: flex;
+    
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+.hero-img{
+    width: 240px ;
+    height:240px;
+}
+.hero-description{
+    font-size:13px ;
+    font-weight: 400;
+    line-height: 20px;
+    color:#0D1321;
+}
+.hero-title{
+    font-weight: 800;
+    font-size: 32px;
+}
+/* development container styles */
+.development-container{
+    border:2px solid red;
+    width: 1140px;
+    height: 1395px;
+    margin:0 auto;
+    margin-top: 70px;
+    background-color: rgba(13, 19, 33, 0.03);
+    border-radius: 8px;
+    margin-bottom: 88px;
+}
+.development-content{
+    width: 852px;
+    height: 115px;
+    margin: 0 auto;
+    text-align: center;
+
+
+}
+.development-title{
+        font-size: 32px;
+         font-weight: 800;
+}
+.development-description{
+    font-weight: 400;
+    font-size: 11px;
+}
+.development-items1{
+    width: 946px;
+    height: 336px;
+    margin: 0 auto;
+}
+.development{
+    width: 477px;
+    height:200px;
+}
+.btn-type{
+    width: 170px;
+    height: 40px;
+    border: 1px solid rgba(13, 19, 33,0.7);
+    font-size: 20px;
+    font-weight: 400;
+    text-align: center;
+    border-radius: 4px;
+    display: block;
+    margin-top: 30px;
+    padding-top: 8px;
+}
+.develppment-item1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:48px;
+    background-image: linear-gradient(to left, rgba(255,255,255,0), rgba(255,255,255,1));
+    border-radius: 8px;
+
+}
+.development-items2{
+    width: 946px;
+    height: 336px;
+    margin: 0 auto;
+    margin-top: 32px;
+    margin-bottom: 32px;
+}
+.development-items2{
+    display: flex;
+    align-items: center;
+    gap:40px;
+    background-image: linear-gradient(to right, rgba(255,255,255,0), rgba(255,255,255,1));
+    border-radius: 8px;
+    padding:30px;
+    margin-right: 90px;
+}
+.development-items3{
+    width: 946px;
+    height: 336px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px;
+    background-image: linear-gradient(to left, rgba(255,255,255,0), rgba(255,255,255,1));
+    border-radius: 8px;
+}
+.development-item3{
+    width: 470px;
+    height: 200px;
+}
+/* inspiration section style */
+.inspiratio-container{
+    border:2px solid red;
+    width: 1140px;
+    height: 770px;
+    margin: 0 auto;
+    margin-bottom: 151px;
+}
+.inspiration-content{
+    border: 2px solid red;
+    text-align: center;
+    width:852px ;
+    height: 115px;
+    margin: 0 auto;
+}
+.current-target-container{
+    border:2px solid red;
+    width: 1140px;
+    height: 460px;
+    margin:0 auto;
+}
+.target{
+    border:2px solid red;
+    width: 852px;
+    height: 113px;
+    text-align: center;
+    margin: 0 auto;
+}
+.skill{
+    border:2px solid red;
+    width: 360px;
+    height: 290px;
+}
+.skills{
+    display: flex;
+    gap:25px;
+    margin-top: 50px;
+
+}
+.skill-description{
+    font-size: 16px;
+    margin-top: 3px;
+}
