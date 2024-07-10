@@ -192,11 +192,24 @@ opacity: 0.8;
     text-align: center;
     margin: 0 auto;
 }
+/* my current skills container */
 .skill{
-    border:2px solid red;
     width: 360px;
     height: 290px;
 }
+.html-skill{
+    background-color: rgba(255, 76, 30, 0.05);
+    border-radius: 16px;
+}
+.css-skill{
+    background-color: rgba(0, 76, 232, 0.05);
+    border-radius: 16px;
+}
+.js-skill{
+    background-color: rgba(255, 223, 0, 0.05);
+    border-radius: 16px;
+}
+
 .skills{
     display: flex;
     gap:25px;
@@ -206,4 +219,94 @@ opacity: 0.8;
 .skill-description{
     font-size: 16px;
     margin-top: 3px;
+}
+/* my inspiration section */
+iframe{
+    margin-top: 40px;
+    padding:40px;
+    border:1px solid rgba(13, 19, 33, 0.2);
+    border-radius: 16px;
+}
+/* next target skills container */
+.next-target{
+    width: 852px;
+    height: 113px;
+    margin: 0 auto;
+    text-align: center;
+}
+.next-target-container{
+    width: 1140px;
+    height: 866px;
+    margin: 0 auto;
+    margin-top: 100px;
+    margin-bottom: 49px;
+}
+.next-target-skills-container{
+    width: 1140px;
+    height: 705px;
+    margin-top: 40px;
+}
+.reactjs-skill{
+    border: 1px solid rgba(13, 19, 33, 0.15);
+    width: 1100px;
+    height: 190px;
+    display: flex;
+    align-items: center;
+    gap:30px;
+    border-radius: 16px;
+    padding: 15px;
+    margin-bottom:24px ;
+}
+.react-img{
+ width: 90px;
+ height: 80px;
+}
+.nodejs-skill{
+    border: 1px solid rgba(13, 19, 33, 0.15);
+    width: 1100px;
+    height: 190px;
+    display: flex;
+    align-items: center;
+    gap:30px;
+    border-radius: 16px;
+    padding: 15px;
+    margin-bottom:24px ;
+}
+.nodejs-img{
+    width: 140px;
+    height: 80px;
+}
+.mongodb-skill{
+    border: 1px solid rgba(13, 19, 33, 0.15);
+    width: 1100px;
+    height: 190px;
+    display: flex;
+    align-items: center;
+    gap:30px;
+    border-radius: 16px;
+    padding: 15px;
+    
+
+}
+.mongodb-img{
+    width: 100px;
+    height: 100px;
+}
+.footer-container{
+    width: 1140px;
+    height: 310px;
+    margin: 0 auto;
+    background-image: url("/assets/handshake.jpg");
+    background-repeat: no-repeat;
+    background-position:center ;
+    background-size: cover;
+    border-radius: 16px;
+}
+.footer-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding:68px 48px;
+
 }
